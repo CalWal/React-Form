@@ -89,12 +89,13 @@ class Form extends React.Component {
             {this.state.firstName} {this.state.lastName}
           </h1>
           {this.state.isFriendly === true && (
-            <h2>Is a confirmed good {this.state.gender}</h2>
+            <h2>Is a confirmed friendly {this.state.gender}</h2>
           )}
           {this.state.favColour !== "Red" && (
             <h2>And has a shit choice in colour... Red is the best!</h2>
           )}
         </div>
+        <button>Confirm Details</button>
       </form>
     );
   }
