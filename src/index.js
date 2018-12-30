@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 import Form from "/components/Form";
+import TravelForm from "/components/TravelForm";
 
 function App() {
-  return <Form />;
+  return <TravelForm />;
 }
 
 const rootElement = document.getElementById("root");
