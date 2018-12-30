@@ -114,9 +114,9 @@ class TravelForm extends React.Component {
         <p>Your destination: {this.state.destination}</p>
         <p>
           Your dietary restrictions:
-          <p>Vegan: {this.state.isVegan ? "Yes" : "No"}</p>
-          <p>Vegetarian: {this.state.isVegetarian ? "Yes" : "No"}</p>
-          <p>Kosher: {this.state.isKosher ? "Yes" : "No"}</p>
+          <p>{this.state.isVegan && "Vegan"}</p>
+          <p>{this.state.isVegetarian && "Vegetarian"}</p>
+          <p>{this.state.isKosher && "Kosher"}</p>
         </p>
       </main>
     );
